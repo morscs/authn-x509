@@ -16,7 +16,7 @@
  *     limitations under the License.
  */
 
-package morscs.web.authn.x509;
+package com.morscs.web.authn.x509;
 
 import javax.enterprise.inject.Produces;
 import javax.servlet.ServletRequest;

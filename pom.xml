@@ -23,9 +23,25 @@
 
   <modelVersion>4.0.0</modelVersion>
   <artifactId>authn-x509</artifactId>
-  <groupId>morscs.web</groupId>
+  <groupId>com.morscs</groupId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
+
+  <name>authn-x509</name>
+  <description>Authentication helper for identifying clients from x509 client certificate data.</description>
+  <url>https://github.com/morscs/authn-x509</url>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>https://github.com/morscs/authn-x509.git</url>
+  </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

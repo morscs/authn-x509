@@ -7,7 +7,7 @@ Authentication helper for extracting X509 certificate information from an http/s
 Include the library in your deployment.
 
         <dependency>
-          <groupId>morscs.web</groupId>
+          <groupId>com.morscs</groupId>
           <artifactId>authn-x509</artifactId>
           <version>0.0.1</version>
           <packaging>jar</packaging>
