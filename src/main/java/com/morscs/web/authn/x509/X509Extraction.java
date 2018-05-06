@@ -36,7 +36,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * X509 Cert Utility Reader
- * <p/>
+ * <p>
  * Usage Tips:
  * <ol>
  * <li> 1. Start by getting the cert chain X509Certificate[]:
@@ -54,19 +54,19 @@ import javax.servlet.http.HttpServletRequest;
  * <li> 3. Extract other stuff using the X509Certificate:
  *    <ul>
  *      <li>
- *        - extractPrimarySubjectDnFromCert <br/>
+ *        - extractPrimarySubjectDnFromCert <br>
  *        CN=TARGARYEN.DAENERYS.MIDDLE.1234567890,OU=CONTRACTOR,OU=PKI,OU=DoD,O=U.S. Government,C=US
  *      </li>
  *      <li>
- *        -  extractCnFromSubjectDn(String subjectDn) <br/>
+ *        -  extractCnFromSubjectDn(String subjectDn) <br>
  *        TARGARYEN.DAENERYS.MIDDLE.1234567890
  *      </li>
  *      <li>
- *        - extractCommonNameFromCn(String cn) <br/>
+ *        extractCommonNameFromCn(String cn) <br>
  *        CommonName object (data structure to hold parsed cn data: lastName, firstName, edipi)
  *      </li>
  *      <li>
- *        - extractPrimaryEmailFromCert(X509Cert cert) <br/>
+ *        - extractPrimaryEmailFromCert(X509Cert cert) <br>
  *        InternetAddress (object wrapper for email)
  *      </li>
  *   </ul>
